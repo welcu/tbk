@@ -83,6 +83,7 @@ module TBK
                 })
 
                 # http.read_timeout = Webpay::Config.timeout
+                http.read_timeout = 25
                 http.request post
               end
             end
